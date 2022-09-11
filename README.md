@@ -1,5 +1,5 @@
 # [Remote-Acess]
-## Irá permitir que o usuario do sistema Controler.py<br>obter controle sobre o teclado do usuario do sistema Controled.py
+## Irá permitir que o usuario do sistema Controler.py<br>obter controle sobre o teclado do usuario do sistema Controled.py.
 
 # [Basics]
 ```
