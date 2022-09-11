@@ -11,7 +11,7 @@ def callback(ch, method, propreties, body):
                         # ^ Irá mostrar o conteudo do dado coletado
 system('cls')
 # ^ Irá limpar o cmd, apagando os prints anteriores
-print('[Coding_Foundation] - [Manipulado]\n')
+print('[Coding_Foundation] - [Controled]\n')
 
 sleep(0.5)
 # v Fará a conexão
