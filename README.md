@@ -41,5 +41,5 @@ system('cls')
 for K in auto.KEYBOARD_KEYS: # < Irá mostrar separadamente as teclas que podem ser utilizadas
     print(f'[{str(K)}]')
         
-input('Exit: ')
+input('Exit: ') 
 ```
