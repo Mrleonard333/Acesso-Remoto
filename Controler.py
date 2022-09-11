@@ -3,7 +3,7 @@ from os import system
 from time import sleep
 import pyautogui as auto
 
-print('[Coding_Foundation] - [Manipulador]\n')
+print('[Coding_Foundation] - [Controler]\n')
 
 sleep(0.5)
 # v Fará a conexão
