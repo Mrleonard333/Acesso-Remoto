@@ -53,7 +53,7 @@ while True:
 
     if TYPE == 1:
         if len(Key) > 1:
-            for K in Key: # < Irá separar as letras
+            for K in Key: # < Irá separar as letras 
                 channel.basic_publish(exchange='', routing_key='Commands', body=K)
         else:
             channel.basic_publish(exchange='', routing_key='Commands', body=Key)
