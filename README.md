@@ -1,6 +1,7 @@
 # [Remote-Acess]
-## He leaves the user of Controler system, have the<br>control to the computer of the Controled system user.
+## Irá permitir que o usuario do sistema Controler.py<br>obter controle sobre o teclado do usuario do sistema Controled.py
 
+# [Basics]
 ```
   [Coding_Foundation] - [Controled] | [Coding_Foundation] - [Controler]
                                     | 
@@ -16,4 +17,29 @@
   Pressing [l]                      |
   Pressing [d]                      |
   Pressing [!]                      |
+```
+# [Purge]
+```
+  print('- Purging queue...')
+  channel.queue_purge(queue='Commands') # < Irá expurgar os dados da queue
+  print('- Queue purged')
+```
+# [Exit]
+```
+  system('cls')
+  print('[Terminating the System]')
+
+  # v Irá fechar a conexão
+  channel.close()
+  connection.close()
+```
+
+# [Keys]
+```
+if Key.upper() == 'KEYS':
+system('cls')
+for K in auto.KEYBOARD_KEYS: # < Irá mostrar separadamente as teclas que podem ser utilizadas
+    print(f'[{str(K)}]')
+        
+input('Exit: ')
 ```
